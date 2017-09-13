@@ -62,7 +62,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.use.sw.alac.decoder=true \
     vendor.audio.use.sw.ape.decoder=true \
     vendor.fm.a2dp.conc.disabled=true \
-    vendor.voice.path.for.pcm.voip=true
+    vendor.voice.path.for.pcm.voip=true \
+    vendor.audio.noisy.broadcast.delay=600 \
+    ro.config.media_vol_steps=25 \
+    ro.af.client_heap_size_kbyte=7168
 
 # Battery
 PRODUCT_PROPERTY_OVERRIDES += \
