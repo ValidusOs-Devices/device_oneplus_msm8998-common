@@ -148,6 +148,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.port=I2C \
     persist.nfc.smartcard.config=SIM1,eSE1
 
+# OTG support
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.oem.otg_support=true
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.bg_apps_limit=60 \
