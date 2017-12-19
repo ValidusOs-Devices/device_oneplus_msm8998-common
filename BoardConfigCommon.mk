@@ -25,6 +25,8 @@
 # Inherit from oppo-common
 -include device/oppo/common/BoardConfigCommon.mk
 
+ALLOW_MISSING_DEPENDENCIES=true
+
 PLATFORM_PATH := device/oneplus/msm8998-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
