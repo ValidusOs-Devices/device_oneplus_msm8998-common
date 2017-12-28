@@ -261,6 +261,9 @@ on boot
     # Fingerprint GOODIX
     chmod 0666 /dev/goodix_fp
 
+    #dt2w
+    write /proc/touchpanel/double_tap_enable 1
+
 #Peripheral manager
 service per_mgr /vendor/bin/pm-service
     class core
