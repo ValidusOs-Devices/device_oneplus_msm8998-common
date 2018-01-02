@@ -462,4 +462,10 @@
          proximity sensor (ideally < 300ms) -->
     <bool name="config_proximityCheckOnWake">true</bool>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <!-- Controls the WiFi wakeup feature.
+    0 = Not available.
+    1 = Available.
+    -->
+    <integer translatable="false" name="config_wifi_wakeup_available">1</integer>
 </resources>
