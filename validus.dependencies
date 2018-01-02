@@ -13,10 +13,5 @@
     "repository": "BigTopKrazies/vendor_oneplus",
     "target_path": "vendor/oneplus",
     "branch": "rebase"
-  },
-  {
-    "repository": "GZOSP/packages_apps_Snap",
-    "target_path": "packages/apps/Snap",
-    "branch": "8.1"
   }
 ]
