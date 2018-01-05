@@ -135,6 +135,7 @@ on boot
     # Wifi firmware reload path
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
+    # FPC1020 /sys
     chmod 0664 /sys/devices/soc/soc:fpc_fpc1020/irq
     chown system system /sys/devices/soc/soc:fpc_fpc1020/irq
     chmod 0660 /sys/devices/soc/soc:fpc_fpc1020/report_home
@@ -156,6 +157,10 @@ on boot
 
     chown system system /sys/module/fpc1020_tee/parameters/ignor_home_for_ESD
     chmod 660 /sys/module/fpc1020_tee/parameters/ignor_home_for_ESD
+
+    # Goodix /sys
+    chmod 0660 /sys/devices/soc/soc:goodix_fp/proximity_state
+    chown system system /sys/devices/soc/soc:goodix_fp/proximity_state
 
     chmod 0666 /dev/qseecom
     chmod 0666 /dev/goodix_fp
