@@ -477,4 +477,7 @@
     1 = Available.
     -->
     <integer translatable="false" name="config_wifi_wakeup_available">1</integer>
+
+    <!-- Whether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
 </resources>
