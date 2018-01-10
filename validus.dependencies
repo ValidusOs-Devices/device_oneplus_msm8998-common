@@ -12,6 +12,6 @@
   {
     "repository": "BigTopKrazies/vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch": "rebase"
+    "branch": "8.1"
   }
 ]
