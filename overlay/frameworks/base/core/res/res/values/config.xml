@@ -30,13 +30,17 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>20</item>
-        <item>45</item>
-        <item>1025</item>
-        <item>1480</item>
-        <item>2250</item>
-        <item>3300</item>
-        <item>10000</item>
+        <item>1</item>
+        <item>8</item>
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -49,7 +53,9 @@
         <item>20</item>
         <item>46</item>
         <item>78</item>
+        <item>96</item>
         <item>128</item>
+        <item>150</item>
         <item>220</item>
         <item>255</item>
     </integer-array>
@@ -64,7 +70,7 @@
     <integer name="config_autoBrightnessLightSensorRate">500</integer>
 
     <!-- Minimum screen brightness allowed by the power manager. -->
-    <integer name="config_screenBrightnessDim">6</integer>
+    <integer name="config_screenBrightnessDim">1</integer>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
