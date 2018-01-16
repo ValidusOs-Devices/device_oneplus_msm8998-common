@@ -360,6 +360,9 @@ on property:sys.boot_completed=1
     #dt2w
     write /proc/touchpanel/double_tap_enable 1
 
+    # Set BFQ I/O scheduler
+    setprop sys.io.scheduler "bfq"
+
 # DASH
 service dashd /sbin/dashd
     class core
