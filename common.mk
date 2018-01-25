@@ -348,6 +348,7 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2 \
     libprotobuf-cpp-full \
+    ims-ext-common \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
