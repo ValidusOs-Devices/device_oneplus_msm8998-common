@@ -7,7 +7,7 @@
   {
     "repository": "GZR-Kernels/kernel_oneplus_msm8998",
     "target_path": "kernel/oneplus/msm8998",
-    "branch": "los"
+    "branch": "8.1"
   },
   {
     "repository": "BigTopKrazies/vendor_oneplus",
