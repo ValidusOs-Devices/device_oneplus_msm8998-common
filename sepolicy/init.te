@@ -1,3 +1,4 @@
 allow init dash_device:chr_file { getattr };
 allow init fingerprint_device:chr_file { setattr };
 allow init ipa_dev:chr_file { rw_file_perms };
+allow init rootfs:file { execute_no_trans };
