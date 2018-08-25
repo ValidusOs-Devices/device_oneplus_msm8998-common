@@ -7,6 +7,7 @@ LOCAL_CFLAGS += -DUSES_BOOTDEVICE_PATH
 endif
 
 LOCAL_C_INCLUDES := \
+    bootable/recovery/edify/include \
     bootable/recovery/otautil/include \
     bootable/recovery/updater/include
 
