@@ -167,7 +167,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    ril.ecclist=112,911,999,*911,#911 \
+    ril.ecclist=112,911,999,*911 \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     persist.rild.nitz_plmn="" \
