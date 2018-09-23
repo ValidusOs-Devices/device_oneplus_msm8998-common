@@ -125,11 +125,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.enable_fb_ubwc=1 \
+    vendor.display.disable_skip_validate=1 \
+    ro.sf.lcd_density=420 \
+    ro.opengles.version=196610 \
+    debug.sf.hw=1 \
     debug.gralloc.gfx_ubwc_disable=0 \
     debug.sf.disable_backpressure=1 \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
     dev.pm.dyn_samplingrate=1 \
+    persist.demo.hdmirotationlock=false \
     persist.debug.wfd.enable=1 \
     persist.demo.hdmirotationlock=false \
     persist.hwc.enable_vds=1 \
