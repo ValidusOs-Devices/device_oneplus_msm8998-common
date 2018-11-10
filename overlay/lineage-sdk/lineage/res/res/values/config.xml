@@ -62,6 +62,7 @@
         "oldname:newname", one per entry. -->
     <string-array name="config_displayModeMappings" translatable="false">
         <item>native:standard</item>
+        <item>hal_native_identity:standard</item>
         <item>srgb:srgb</item>
         <item>dci_p3:dci_p3</item>
     </string-array>
