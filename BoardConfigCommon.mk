@@ -25,6 +25,9 @@
 # Inherit from oppo-common
 -include device/oppo/common/BoardConfigCommon.mk
 
+# Assertions
+TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
+
 PLATFORM_PATH := device/oneplus/msm8998-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
