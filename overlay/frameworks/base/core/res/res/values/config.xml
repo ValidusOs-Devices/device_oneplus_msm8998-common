@@ -30,13 +30,16 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
+        <item>5</item>
         <item>20</item>
-        <item>45</item>
-        <item>1025</item>
-        <item>1480</item>
-        <item>2250</item>
-        <item>3300</item>
-        <item>10000</item>
+        <item>40</item>
+        <item>100</item>
+        <item>325</item>
+        <item>600</item>
+        <item>1250</item>
+        <item>2200</item>
+        <item>4000</item>
+        <item>5000</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -44,14 +47,17 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>6</item>
-        <item>10</item>
-        <item>20</item>
-        <item>46</item>
-        <item>78</item>
-        <item>128</item>
-        <item>220</item>
-        <item>255</item>
+        <item>9</item>    <!-- 0-5 -->
+        <item>30</item>   <!-- 5-20 -->
+        <item>45</item>   <!-- 20-40 -->
+        <item>62</item>   <!-- 40-100 -->
+        <item>78</item>   <!-- 100-325 -->
+        <item>96</item>   <!-- 325-600 -->
+        <item>119</item>  <!-- 600-1250 -->
+        <item>146</item>  <!-- 1250-2200 -->
+        <item>178</item>  <!-- 2200-4000 -->
+        <item>221</item>  <!-- 4000-5000 -->
+        <item>255</item>  <!-- 5000+ -->
     </integer-array>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
