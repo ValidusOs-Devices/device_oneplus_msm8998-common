@@ -21,7 +21,7 @@
   },
   {
     "repository":  "LineageOS/android_vendor_nxp_opensource_external_libnfc-nci",
-    "target-path": "vendor/nxp/opensource/commonsys/external/libnfc-nci",
+    "target_path": "vendor/nxp/opensource/commonsys/external/libnfc-nci",
     "branch":      "lineage-16.0"
   },
   {
