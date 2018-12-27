@@ -406,7 +406,7 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/common/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+    $(LOCAL_PATH)/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
