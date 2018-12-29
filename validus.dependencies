@@ -1,8 +1,8 @@
 [
   {
-    "repository":  "AICP/device_oppo_common",
+    "repository":  "GZOSP-Devices/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch":      "p9.0"
+    "branch":      "9.0"
   },
   {
     "repository":  "GZR-Kernels/kernel_oneplus_msm8998",
@@ -10,9 +10,9 @@
     "branch":      "9.0"
   },
   {
-    "repository":  "AICP/proprietary_vendor_oneplus",
+    "repository":  "BigTopKrazies/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch":      "p9.0"
+    "branch":      "9.0"
   },
   {
     "repository":  "LineageOS/android_vendor_nxp_interfaces_opensource_nfc",
@@ -25,9 +25,9 @@
     "branch":      "lineage-16.0"
   },
   {
-   "repository":  "LineageOS/android_vendor_nxp_opensource_frameworks",
-   "target_path": "vendor/nxp/opensource/commonsys/frameworks",
-   "branch":      "lineage-16.0"
+    "repository":  "LineageOS/android_vendor_nxp_opensource_frameworks",
+    "target_path": "vendor/nxp/opensource/commonsys/frameworks",
+    "branch":      "lineage-16.0"
  },
  {
    "repository":  "LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc",
