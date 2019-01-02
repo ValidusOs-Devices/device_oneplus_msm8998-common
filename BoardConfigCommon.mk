@@ -44,6 +44,9 @@ TARGET_USE_SDCLANG := true
 TARGET_BOOTLOADER_BOARD_NAME := msm8998
 TARGET_NO_BOOTLOADER := true
 
+# Compile libhwui in performance mode
+#HWUI_COMPILE_FOR_PERF := true
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8998
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno540
