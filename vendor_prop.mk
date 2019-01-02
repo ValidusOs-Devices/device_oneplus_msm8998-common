@@ -40,7 +40,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.fluence.voicerec=true \
     persist.vendor.audio.hac.enable=false \
     persist.vendor.audio.ras.enabled=false \
-    persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-ldac-aac \
+    persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxhd-ldac-aac \
     ro.config.media_vol_steps=25 \
     ro.config.vc_call_vol_steps=7 \
     ro.vendor.audio.sdk.fluencetype=fluencepro \
@@ -74,13 +74,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     bt.max.hfpclient.connections=1 \
-    persist.bt.a2dp_offload_cap=sbc-aptx-aptxhd-ldac-aac \
+    persist.btstack.a2dp_offload_cap=sbc-aptx-aptxhd-ldac-aac \
     persist.bt.a2dp.aac_disable=true \
-    persist.vendor.bt.enable.splita2dp=false \
+    persist.vendor.btstack.enable.splita2dp=false \
     qcom.bluetooth.soc=cherokee \
     ro.bluetooth.a4wp=false \
-    ro.bluetooth.emb_wp_mode=true \
-    ro.bluetooth.wipower=true
+    ro.bluetooth.emb_wp_mode=false \
+    ro.bluetooth.wipower=false
 
 # Cabl
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -257,7 +257,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.com.android.dataroaming=true \
     ro.telephony.default_network=22,20 \
-    telephony.lteOnCdmaDevice=1 \
+    telephony.lteOnCdmaDevice=1,1 \
     vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # RmNet Data
