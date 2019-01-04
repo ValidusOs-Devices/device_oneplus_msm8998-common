@@ -45,7 +45,7 @@ TARGET_BOOTLOADER_BOARD_NAME := msm8998
 TARGET_NO_BOOTLOADER := true
 
 # Compile libhwui in performance mode
-#HWUI_COMPILE_FOR_PERF := true
+HWUI_COMPILE_FOR_PERF := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8998
