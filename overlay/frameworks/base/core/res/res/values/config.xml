@@ -92,6 +92,9 @@
     <!-- Does the device supports fast charging -->
     <bool name="config_FastChargingLedSupported">true</bool>
 
+    <!-- Does the device supports Smart Battery -->
+    <bool name="config_smart_battery_available">true</bool>
+
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
