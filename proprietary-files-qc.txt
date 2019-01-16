@@ -960,10 +960,12 @@ vendor/etc/init/qcrild.rc
 etc/permissions/embms.xml
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
+etc/permissions/qti_telephony_common.xml
 etc/permissions/telephonyservice.xml
 framework/embmslibrary.jar
 framework/qcnvitems.jar
 framework/qcrilhook.jar
+framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/qti
