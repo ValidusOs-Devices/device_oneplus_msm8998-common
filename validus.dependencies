@@ -1,6 +1,6 @@
 [
   {
-    "repository":  "GZOSP-Devices/device_oppo_common",
+    "repository":  "ValidusOs-Devices/device_oppo_common",
     "target_path": "device/oppo/common",
     "branch":      "9.0"
   },
