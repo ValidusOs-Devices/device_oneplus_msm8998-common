@@ -652,4 +652,7 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>com.slim.device.KeyHandler</item>
     </string-array>
+
+    <!-- Set AOD off by default -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
 </resources>
