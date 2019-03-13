@@ -655,4 +655,8 @@
 
     <!-- Set AOD off by default -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- Override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
 </resources>
