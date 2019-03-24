@@ -1,8 +1,0 @@
-type jamesdsp, domain;
-type jamesdsp_exec, exec_type, file_type;
-
-init_daemon_domain(jamesdsp)
-
-# Make the domain permissive for testing
-# TODO: Remove that later
-#permissive jamesdsp;
