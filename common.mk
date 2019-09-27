@@ -433,10 +433,6 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
     thermal.msm8998
 
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oneplus_msm8998
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
