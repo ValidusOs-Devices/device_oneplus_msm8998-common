@@ -186,6 +186,10 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
+# DevicHandler
+PRODUCT_PACKAGES += \
+	DeviceHandler
+
 # CryptfsHW
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
