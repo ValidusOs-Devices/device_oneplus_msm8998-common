@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
+# DevicHandler
+PRODUCT_PACKAGES += \
+	DeviceHandler
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
