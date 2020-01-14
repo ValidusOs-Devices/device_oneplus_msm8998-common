@@ -698,4 +698,8 @@
         <item>com.slim.device.KeyHandler</item>
     </string-array>
 
+    <!-- Button backlight. -->
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">145</integer>
+
 </resources>
