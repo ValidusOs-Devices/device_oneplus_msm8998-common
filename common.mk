@@ -399,6 +399,7 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
 PRODUCT_PACKAGES += \
+    ims-ext-common \
     ims-ext-common_system \
     ims_ext_common.xml \
     telephony-ext \
