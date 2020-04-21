@@ -79,8 +79,6 @@
 
 /sys/devices/soc/780000.qcom,msm-core/uio(/.*)?                 u:object_r:sysfs_uio:s0
 
-/firmware(/.*)?                                                 u:object_r:firmware_file:s0
-/bt_firmware(/.*)?                                              u:object_r:bt_firmware_file:s0
 
 # Wifi
 /(vendor|system/vendor)/bin/wifi-mac-generator                  u:object_r:wifi_mac_generator_exec:s0
