@@ -298,10 +298,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
-# Keyhandler
-PRODUCT_PACKAGES += \
-    ConfigPanel
-
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,${LOCAL_PATH}/prebuilt/usr,$(TARGET_COPY_OUT_VENDOR)/usr)
